@@ -21,7 +21,7 @@ jobs:
       env:
         ACCESS_TOKEN: ${ secrets.ACCESS_TOKEN } 
       run: |
-        cd .vuepress/dist
+        cd docs/.vuepress/dist
         git config --global user.email "changicho29@gmail.com"
         git config --global user.name "changicho"
         git init
