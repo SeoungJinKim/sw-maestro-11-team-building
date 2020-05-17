@@ -8,7 +8,7 @@ module.exports = {
   themeConfig: {
     nav: [
       {
-        text: "About",
+        text: "Github",
         items: [{ text: "Github", link: "https://github.com/changicho" }],
       },
     ],
