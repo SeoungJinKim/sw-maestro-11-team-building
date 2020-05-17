@@ -27,4 +27,4 @@ jobs:
         git init
         git add -A
         git commit -m 'deploy with vuepress'
-        git push -f https://${ACCESS_TOKEN}@github.com/${GITHUB_REPOSITORY}.git master:gh-pages
+        git push -f https://github.com/changicho/sw-maestro-11-team-building master:gh-pages
